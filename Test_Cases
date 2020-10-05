@@ -1,0 +1,27 @@
+ID: Test 1
+Title: Navigation on page
+Type: Functional
+Priority: Medium
+Test conditions: Windows 7, Google Chrome vers. 85.0.4183.121 , 64 bit, URL: https://knp.org.pl/
+Steps:
+1. Entering the party's website
+2. Check visibility information on footer and all sub-page
+3. Click on button "Dołącz do nas"
+4. Check visibility information on footer and all sub-page
+5. Click on button "Wspieraj nas"
+6. Check visibility information on footer and all sub-page
+Expected results: 
+1. Entering website
+2. Information and all sub-page is visible
+3. Entering to sub-page "Dołącz do nas"
+4. Information and all sub-page is visible
+5. Entering to sub-page "Wspieraj nas"
+6. Information and all sub-page is visible
+Actual results:
+1. Entering website
+2. Information and all sub-page is visible
+3. Entering to sub-page "Dołącz do nas"
+4. Information and all sub-page is visible
+5. Entering to sub-page "Wspieraj nas"
+6. Information and all sub-page is visible
+Status: pass
