@@ -1,0 +1,428 @@
+{
+  "id": "80943cd4-3020-4186-953b-444acc7d261d",
+  "version": "2.0",
+  "name": "KNPTestOfPage",
+  "url": "https://knp.org.pl",
+  "tests": [{
+    "id": "9a35347d-bd92-409f-a886-98a451325c66",
+    "name": "NavigationTest",
+    "commands": [{
+      "id": "5da67d8d-3dca-40e0-b179-24a994b0b9a1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69752e4d-dceb-4da9-ade9-9c78db17f66c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1928x1044",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4f1f8c4-3818-4962-8262-93d9e75ed620",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start",
+      "targets": [
+        ["linkText=Start", "linkText"],
+        ["css=ui-nav:nth-child(1) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Start')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbc67e2c-77e3-401a-8639-04550af4601d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/p",
+      "targets": [],
+      "value": "Kongres Nowej Prawicy"
+    }, {
+      "id": "32765d43-278f-4b27-8d8e-e9a989849cbf",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/div",
+      "targets": [],
+      "value": "© Wszelkie prawa zastrzeżone"
+    }, {
+      "id": "a4cf0a39-f9ca-4c93-8819-6a8ff9ece3a4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/ui-navbar/header/div/div/ui-navbar-brand/a/img[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4327a80f-0418-45f7-874f-2d06016eb910",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Program",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb9b1938-75b2-4468-8673-a443b251f52d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[1]/div/div/h3",
+      "targets": [],
+      "value": "Kongresu Nowej Prawicy"
+    }, {
+      "id": "b8218cd8-a3f3-4a4b-aca9-9589342c63b6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[1]/div/div/h1",
+      "targets": [],
+      "value": "PROGRAM"
+    }, {
+      "id": "2054832a-3d4e-4043-8519-2f9746e05c93",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[2]/div/div/h3[1]",
+      "targets": [],
+      "value": "SEKCJA I - PODSTAWY PAŃSTWA"
+    }, {
+      "id": "eae386fc-9aeb-44d2-b7b7-e295cd656685",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[2]/div/div/h3[8]",
+      "targets": [],
+      "value": "SEKCJA II - SPRAWY SPOŁECZNE"
+    }, {
+      "id": "4fa54d26-f342-410f-a5a6-204706738547",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[2]/div/div/h3[9]",
+      "targets": [],
+      "value": "SEKCJA III - POLITYKA ZAGRANICZNA, OBRONNOŚĆ I BEZPIECZEŃSTWO"
+    }, {
+      "id": "02943695-0cc1-4bb6-ba1a-2b17ade26308",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[2]/div/div/h3[10]",
+      "targets": [],
+      "value": "SEKCJA IV - GOSPODARKA"
+    }, {
+      "id": "52dd959c-efbf-4c8d-8741-0f5056cc1633",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-program/div/ui-card[2]/div/div/p[1]/b",
+      "targets": [],
+      "value": "Rzeczpospolita"
+    }, {
+      "id": "4d216f61-aa09-4ce7-b888-1a310f8f039f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/p",
+      "targets": [],
+      "value": "Kongres Nowej Prawicy"
+    }, {
+      "id": "2a9c0416-9bc9-4731-a35a-6d826f429ce9",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/div",
+      "targets": [],
+      "value": "© Wszelkie prawa zastrzeżone"
+    }, {
+      "id": "b2c95cff-60f1-4b8f-8e8b-8497ecf9c193",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projekt Konstytucji",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de041cc3-f376-4142-8067-e6dcd42cad2f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[2]/div/div/h3",
+      "targets": [],
+      "value": "ZASADY KARDYNALNE"
+    }, {
+      "id": "e21f04bb-c8f5-4bdf-a473-ea1da364125c",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[3]/div/div/h3",
+      "targets": [],
+      "value": "WŁADZA USTAWODAWCZA"
+    }, {
+      "id": "5b0dc994-266a-4bd5-9ca4-8fa034cbf19f",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[4]/div/div/h3",
+      "targets": [],
+      "value": "PREZYDENT"
+    }, {
+      "id": "f63e1dd7-e2cb-440d-af2e-d729c60f24fd",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[5]/div/div/h3",
+      "targets": [],
+      "value": "WŁADZA SĄDOWNICZA"
+    }, {
+      "id": "f6b2bf2d-c9f4-4f21-8c9d-67d04c59aab5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[6]/div/div/h3",
+      "targets": [],
+      "value": "SAMORZĄD TERYTORIALNY"
+    }, {
+      "id": "16df1ab9-8e27-4b57-90b3-1e7ace823f3d",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[7]/div/div/h3",
+      "targets": [],
+      "value": "NAJWYŻSZA IZBA KONTROLI"
+    }, {
+      "id": "39b1ea6b-9a4e-4d3f-b411-f85e93f5c636",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[8]/div/div/h3",
+      "targets": [],
+      "value": "GODŁO, BARWY, HYMN I STOLICA RZECZYPOSPOLITEJ POLSKIEJ"
+    }, {
+      "id": "650865e1-b322-49ff-9fd0-15588d1cfb06",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[2]/ui-card[9]/div/div/h3",
+      "targets": [],
+      "value": "ZMIANA KONSTYTUCJI"
+    }, {
+      "id": "bdc68c44-3f4e-4566-bbbc-2820c6193a0f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[1]/div/div[2]/img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13fa1e66-6128-479c-a336-702f21bb4ef7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[1]/a/ui-button/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c77a75ba-6748-4aab-a73c-75c38507d67a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/p",
+      "targets": [],
+      "value": "Kongres Nowej Prawicy"
+    }, {
+      "id": "e0cb05e0-0854-46c5-aa60-9d711b59ba58",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/div",
+      "targets": [],
+      "value": "© Wszelkie prawa zastrzeżone"
+    }, {
+      "id": "31e37227-8dc9-4e23-bd5b-8a063804d075",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dołącz do nas",
+      "targets": [
+        ["linkText=Dołącz do nas", "linkText"],
+        ["css=ui-nav:nth-child(2) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Dołącz do nas')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dolacz')]", "xpath:href"],
+        ["xpath=//ui-nav[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dołącz do nas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7b9ed15-5c30-4df7-99a0-3bd209898056",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/main/knp-join-us/div/div/div/div[2]/div/a[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "283f033f-95b8-4b62-a107-9083424503bc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/main/knp-join-us/div/div/div/div[2]/div/a[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23de5c23-38c2-43a0-a0f9-335d18d6625a",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/div",
+      "targets": [],
+      "value": "© Wszelkie prawa zastrzeżone"
+    }, {
+      "id": "4b66abde-c168-4638-b859-2c2ea71f00b1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/ui-navbar/header/div/div/ui-navbar-brand/a/img[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea372f5a-b8cf-4f47-9491-87a9a4e635b4",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-join-us/div/div/div/div[1]/h1",
+      "targets": [],
+      "value": "Zostań członkiem Kongresu Nowej Prawicy"
+    }, {
+      "id": "40af7b88-13a3-4f05-8573-e92e49ae7832",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/p",
+      "targets": [],
+      "value": "Kongres Nowej Prawicy"
+    }, {
+      "id": "a6d90f7d-99b1-4883-aa64-f44053e0a425",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wspieraj nas",
+      "targets": [
+        ["linkText=Wspieraj nas", "linkText"],
+        ["css=ui-nav:nth-child(3) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Wspieraj nas')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wspieraj')]", "xpath:href"],
+        ["xpath=//ui-nav[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Wspieraj nas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5239a3bd-780d-48db-882f-4d8da6e58433",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/knp-root/ui-navbar/header/div/div/ui-navbar-brand/a/img[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4deb07c-3240-4bc7-88fd-12f44a2b0123",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-donation/div/div/div/div[1]/h1",
+      "targets": [],
+      "value": "Wspieraj naszą działalność"
+    }, {
+      "id": "f103cd03-7251-4f14-948f-61a77c877a1e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/p",
+      "targets": [],
+      "value": "Kongres Nowej Prawicy"
+    }, {
+      "id": "b67110e8-6d17-4a36-95eb-6235c387bd02",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/main/knp-donation/div/div/div/h3",
+      "targets": [],
+      "value": "Zasady dokonywania darowizn"
+    }, {
+      "id": "ebf4966f-ac74-4288-9d68-7781bfd69c70",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/knp-root/ui-copyright/section/div/div/div/div/div",
+      "targets": [],
+      "value": "© Wszelkie prawa zastrzeżone"
+    }, {
+      "id": "fb72bd7a-2da5-451a-bdbd-3beac122cedd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0b8db7fe-a82d-42bb-b528-bc85d9638cb5",
+    "name": "PDF on \"Projekt Konstytucji\" sub-page",
+    "commands": [{
+      "id": "a52d4e94-e5d7-4128-be88-29762cae172e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb670cb2-f73f-449d-8f50-943e67aab51b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1928x1044",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cb8ea35-2f7e-45df-9a4a-9efe90ebfa6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Projekt Konstytucji",
+      "targets": [
+        ["linkText=Projekt Konstytucji", "linkText"],
+        ["css=ui-nav:nth-child(3) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Projekt Konstytucji')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projekt-konstytucji')]", "xpath:href"],
+        ["xpath=//ui-nav[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Projekt Konstytucji')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "230f3686-92d7-4c16-af06-ee65ae4d78f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Projekt Konstytucji",
+      "targets": [
+        ["linkText=Projekt Konstytucji", "linkText"],
+        ["css=ui-nav:nth-child(3) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Projekt Konstytucji')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projekt-konstytucji')]", "xpath:href"],
+        ["xpath=//ui-nav[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Projekt Konstytucji')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49d0988f-4d33-48da-9865-72b1c67cab9d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Projekt Konstytucji",
+      "targets": [
+        ["linkText=Projekt Konstytucji", "linkText"],
+        ["css=ui-nav:nth-child(3) .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Projekt Konstytucji')]", "xpath:link"],
+        ["xpath=//div[@id='primaryMenu']/nav/ul/ui-nav[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projekt-konstytucji')]", "xpath:href"],
+        ["xpath=//ui-nav[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Projekt Konstytucji')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb7e7ca-75df-4778-aa98-76ed93da99b3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/knp-root/main/knp-constitution-draft/div/div/div[1]/a/ui-button/button",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//ui-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Pobierz PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "646a2c07-17fb-4ba7-9f7e-9a9fdc270836",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7342a1e5-5448-415c-94aa-572bef288494",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a35347d-bd92-409f-a886-98a451325c66"]
+  }],
+  "urls": ["https://knp.org.pl/"],
+  "plugins": []
+}
